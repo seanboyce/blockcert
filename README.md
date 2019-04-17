@@ -3,6 +3,8 @@ A Blockchain Certificate / Diploma (ABCD Token)
 
 This is the tool I use to issue ERC-721 tokens containing certification for courses I run, as a service to students. They are ownable but this is only to identify the training supplier.
 
+The reason we have both a student name and a TomoChain address is to allow 2 ways for students to demonstrate that the certificate is really theirs -- via their name, or by proving they have access to the associated TomoChain address. If they just pick one for privacy reasons, that's OK, I just leave the other as 'Anonymous' -- this is why the Tomochain address is stored as a string and not an address.
+
 You'll need to import Openzeppelin contracts to use this: https://github.com/OpenZeppelin/openzeppelin-solidity
 
 You'll also need to trigger the constructor on deploying to a blockchain, e.g. by including something like this in 1_initial_migration.js in Truffle:
