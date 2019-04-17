@@ -19,6 +19,8 @@ https://medium.com/tomochain/how-to-build-a-dapp-on-tomochain-85532a1192e7
 
 Should work on Ethereum too of course.
 
-Once loaded on chain, use the mint function via Web3 or similar to issue tokens.
+Once loaded on chain, use the mint function via Web3 or similar to issue tokens. 
+
+The file check_certification.py provides an example standalone application that can return a student's certification. Currently it connects to a live contract, and if you run it, it should return my personal Tomo address and my role in the course (instructor) as token 0.
   
 
