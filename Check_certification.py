@@ -1,7 +1,7 @@
 from web3 import Web3, HTTPProvider, IPCProvider, WebsocketProvider
 import json
 
-with open('/home/sean/web2py/web2py/applications/Certify/controllers/Certify.json') as f:
+with open('Full path to contract ABI') as f:
     abi = json.load(f)
 
 w3 = Web3(HTTPProvider('https://rpc.tomochain.com'))
